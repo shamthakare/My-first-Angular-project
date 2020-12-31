@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './navbar/header/header.component';
 import { FooterComponent } from './navbar/footer/footer.component';
 import { ForloopComponent } from './forloop/forloop.component';
+import { OpertaiondemoComponent } from './opertaiondemo/opertaiondemo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ForloopComponent
+    ForloopComponent,
+    OpertaiondemoComponent
   ],
   imports: [
     BrowserModule,

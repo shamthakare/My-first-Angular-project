@@ -12,9 +12,11 @@ export class ForloopComponent implements OnInit {
   arr = [1, 2, 3, 4];
   arrr = [
     { name: 'sham', age: 26, mark: 55 },
-  { name: 'naynesh', age: 29, mark: 50 },
-  { name: 'sarju', age: 20, mark: 66 }
-]
+    { name: 'naynesh', age: 29, mark: 50 },
+    { name: 'sarju', age: 20, mark: 66 }
+  ]
+
+
 
   ngOnInit(): void {
 
